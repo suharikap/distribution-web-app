@@ -1,0 +1,10 @@
+.padding{
+	padding-left: 20px;
+}
+
+.dashboard-card
+{
+	width: 327px;
+	min-height: 10px;
+	padding-top: 50px;
+}

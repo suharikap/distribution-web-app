@@ -1,0 +1,44 @@
+
+
+.test{
+height:10px;
+}
+.mdl-data-table th
+{ 
+text-align:center;
+
+}
+.mdl-data-table td
+{
+
+
+text-align:center;
+
+
+}
+
+.user-name{
+
+padding-top:20px;
+text-align:left;
+}
+.left-align{
+text-align:left;
+
+}
+.font1
+{
+text-align:left;
+text-transform: uppercase;
+}
+.button-name
+{
+padding-top:10px;
+}
+.date-field{
+	float:right;
+	padding-right:30px;
+}
+.dropdown{
+padding-left:30px;
+}
