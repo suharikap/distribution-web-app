@@ -3,7 +3,7 @@ $(document).ready(function(){
 $("#doughnutChart").drawDoughnutChart([
   { 
     title: "30% left",
-    value : 4822,  
+    value : 4821,  
     color: "#abb3e2" 
   },
   { 
