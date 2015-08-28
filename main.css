@@ -1,44 +1,43 @@
 
-
 .test{
-height:10px;
+	height:10px;
 }
 .mdl-data-table th
 { 
-text-align:center;
+	text-align:center;
 
 }
 .mdl-data-table td
 {
 
 
-text-align:center;
+	text-align:center;
 
 
 }
 
 .user-name{
 
-padding-top:20px;
-text-align:left;
+	padding-top:20px;
+	text-align:left;
 }
 .left-align{
-text-align:left;
+	text-align:left;
 
 }
 .font1
 {
-text-align:left;
-text-transform: uppercase;
+	text-align:left;
+	text-transform: uppercase;
 }
 .button-name
 {
-padding-top:10px;
+	padding-top:10px;
 }
 .date-field{
 	float:right;
 	padding-right:30px;
 }
 .dropdown{
-padding-left:30px;
+	padding-left:30px;
 }
