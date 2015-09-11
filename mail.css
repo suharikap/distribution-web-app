@@ -1,0 +1,50 @@
+.card-top
+{
+	text-align: left;
+	padding-right: 150px;
+}
+.mdl-card
+{
+	width: 500px;
+	height: 360px;
+}
+.card-top-right
+{
+	padding-left: 170px;
+}
+.center-text
+{
+	padding-right: 440px;
+
+}
+.card-button
+{
+	padding-right: 40px;
+}
+.dash-board
+{
+	width: 100%;
+}
+.checkbox
+{
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+.ddl-cell
+{
+	margin: 1px;
+}
+.checkbox-text
+{
+	padding-top: 10px;
+}
+
+.ddl-grid
+{
+	background-color: EDF8FC;
+}
+.bottom-text
+{
+	padding-left: 180px;
+}

@@ -93,3 +93,22 @@
 {
 	padding-left: 200px;
 }
+.icons-left
+{
+	padding-left: 590px;
+
+}
+.over
+{
+position:absolute;
+left:40px;
+top:10px;
+z-index:-1;
+}
+.icon_top
+{
+	
+	
+
+}
+

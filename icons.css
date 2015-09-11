@@ -1,0 +1,43 @@
+
+.mdl-card{
+	width: 100%;
+	
+	}
+
+.dash-board
+{
+	text-align: center;             
+	padding-left: 30px;
+
+}
+
+.text-alignment
+{
+	margin: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+.button-align
+{
+	
+}
+.mdl-textfield
+{
+	width: 100%;
+}
+.form-button
+{
+    float: right;
+    margin-left: 10px;
+}
+.top-bar
+{
+	margin-left:30px;
+	width: 100%;
+}
+.material-icons
+{
+    width: 23%;    
+}
+

@@ -1,0 +1,89 @@
+.mdl-card
+{
+	width: 100%;
+	height: 560px;
+	padding: 0px;
+	font-size: 13px;
+}
+.card-filters
+{
+	padding-left: 10px;
+}
+.card-top-right
+{
+	padding-left: 220px;
+}
+.card-top-rightend
+{
+	padding-left: 50px;
+}
+
+
+.ddl-grid
+{
+	padding: 0px;
+
+}
+
+
+.ddl-cell
+{
+	width: 10px;
+	padding: 6px;
+}
+.mdl-grid
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+.cdl-grid
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+
+.mdl-button--fab
+{
+
+	height: 30px;
+	width: 20px;
+	min-width: 42px;
+
+}
+.icons
+{
+	padding-left: 90px;
+
+}
+.name-align
+{
+	padding-left: 20px;
+}
+.button-adjust
+{
+	padding-left: 50px;
+	padding-top: 5px;
+}
+.mdl-button
+{
+	font-size: 11px;
+	height: 33px;
+
+}
+.button1-adjust
+{
+	padding-top: 5px;
+}
+.mdl-textfield__label 
+{
+	font-size: 13px;
+}
+.hr
+{
+	height: 0px;
+	margin: 0px;
+}
