@@ -1,26 +1,14 @@
 .dashboard-card
 {
 	width: 100%;
+}
 
-
-}
-.mdl-grid
-{
-	padding-left: 30px;
-}
-.ddl-grid
-{
-	padding-left: 40px;
-}
 .mdl-card
 {
 	width: 100%;
+	padding: 0px;
+
 	
-	
-}
-.mdl-textfield__input
-{
-	width: 50%;
 }
 .left-navigation-link
 {
@@ -49,8 +37,10 @@
 {
 	text-align: center;
 	font :bold;
-	font-size: 20px;
-	padding-top: 20px;
+	font-size: 25px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	
 	
 
 }
@@ -105,10 +95,107 @@ left:40px;
 top:10px;
 z-index:-1;
 }
-.icon_top
+.top-text
 {
-	
-	
+	font-weight: bold;
+}
+.table-text
+{
+	font-weight: bold;
+}
+
+.mdl-cell
+{
+	margin: 0px;
 
 }
+
+.card-left
+{
+	width: 100%;
+	margin: 30px;
+
+}
+
+.middle-grid
+{
+   padding-top: 15px;
+}
+
+.mdl-textfield
+{
+	width: 60%;
+	
+}
+.text-top
+{
+	font-weight: bold;
+}
+.check-box
+{
+	padding-left: 50px;
+}
+.bottom-check-box
+{
+	padding-left: 50px;
+	padding-top: 25px;
+}
+.bottom-button
+{
+	padding-top: 20px;
+}
+.add-parameters-cell
+{
+	width: 15%;
+	display: inline-block;
+
+}
+.create-parameters-cell
+{
+	width: 33%;
+	display: inline-block;
+
+}
+#add-fos-card{
+	width: 100%;
+}
+.add-parameters-cln
+{
+	width: 100%;	
+}
+.last-button
+{
+	float: right;
+	margin-right: 80px;
+	padding-top: 20px;
+}
+.create-parameters-cln
+{
+	width: 100%;	
+}
+.fos-left
+{
+	width: 100%;
+	margin: 20px;
+	padding-left: 70px;
+}
+.fos-button
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.mdl-cell
+{
+	padding-left: 20px;
+}
+.mdl-grid
+{
+	margin: 0px;
+}
+.target-bottom
+{
+	display: flex;
+}
+
 
