@@ -69,14 +69,14 @@
 {
 	font-size: 20px;
 	width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+   
 }
 .target-card-text{
 	padding-top: 75px;
 }
 .target-card-value{
 	padding-top: 50px;
+	padding-right: 130px;
 }
 
 .button-target-name
@@ -193,9 +193,44 @@ z-index:-1;
 {
 	margin: 0px;
 }
-.target-bottom
+
+
+
+.target-text
 {
+	font-size: 22px;
 	display: flex;
+	
+	width: 100%;
+	
 }
+
+.box-text
+{
+ 
+ text-align: left;
+
+ 
+}
+.target-button
+{
+	float: right;
+	margin: 20px;
+	margin-right: 100px;
+}
+.target-bottom-card-text
+{
+	font-size: 25px;
+	width: 40%;
+	text-align: left;
+	margin-left: 85px;
+
+
+}
+.target-left
+{
+	width: 100%;
+}
+
 
 

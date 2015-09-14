@@ -7,128 +7,267 @@
   <link href="after_edit.css" rel="stylesheet">
 </head>
 <body>
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Distribution App</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation. We hide it in small screens. -->
-      <nav class="mdl-navigation mdl-layout--large-screen-only">
-      <a class="mdl-navigation__link" href="./main.html">Closed Stock</a> 
-        <a class="mdl-navigation__link" href="./Dashboard.html">DashBoard</a>
-        <a class="mdl-navigation__link" href="./after_edit.html">Stock</a>
-        <a class="mdl-navigation__link" href="./settings.html">Settings</a>
-        <a class="mdl-navigation__link" href="">Logout</a>
+
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Distribution App</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="./main.html">Closed Stock</a> 
+          <a class="mdl-navigation__link" href="./Dashboard.html">DashBoard</a>
+          <a class="mdl-navigation__link" href="./after_edit.html">Stock</a>
+          <a class="mdl-navigation__link" href="./settings.html">Settings</a>
+          <a class="mdl-navigation__link" href="">Logout</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Title</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
       </nav>
     </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-    </nav>
-  </div>
-  <main class="mdl-layout__content">
-    <div class="page-content">
-      
-
-<div class="mdl-grid">
-  <div class="mdl-cell mdl-cell--4-col">
-    
-  </div>
-  <div class="mdl-cell mdl-cell--4-col">
+    <main class="mdl-layout__content">
+      <div class="page-content">
 
 
-<div class="mdl-grid">
-     
-      <div class="mdl-cell mdl-cell--6-col">
-        <div class="date-field">
-        <input type="date" name="bday">        
-        </div>
-      </div>
+        <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--4-col">
 
-      <div class="mdl-cell mdl-cell--6-col">
+          </div>
+          <div class="mdl-cell mdl-cell--4-col">
 
-        <div class="dropdown">
-            <select>
-              <option value="volvo">Opening Stock</option>
-              <option value="saab">Closing Stock</option>
-            </select>          
-        </div>
+
+            <div class="mdl-grid">
+
+              <div class="mdl-cell mdl-cell--6-col">
+                <div class="date-field">
+                  <input type="date" name="bday">        
+                </div>
+              </div>
+
+              <div class="mdl-cell mdl-cell--6-col">
+
+                <div class="dropdown">
+                  <select>
+                    <option value="volvo">Opening Stock</option>
+                    <option value="saab">Closing Stock</option>
+                  </select>          
+                </div>
+              </div>
+            </div>
+
+            <div class="main-table">
+              <table class="mdl-data-table mdl-js-data-table mdl-data-table-- mdl-shadow--2dp">
+                <thead>
+                  <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Name</th>
+                    <th>Rc 10</th>
+                    <th>Rc 20</th>
+                    <th>Rc 30</th>
+                    <th>Rc 40</th>
+                    <th>Rc 50</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                    <td>25</td>
+                    <td>24</td>
+                    <td>23</td>
+                    <td>22</td>      
+                    <td>50</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                    <td>50</td>
+                    <td>49</td>
+                    <td>48</td>
+                    <td>47</td>      
+                    <td>50</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                    <td>50</td>
+                    <td>49</td>
+                    <td>48</td>
+                    <td>47</td>      
+                    <td>50</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                    <td>50</td>
+                    <td>49</td>
+                    <td>48</td>
+                    <td>47</td>      
+                    <td>50</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="main-table">
+              <table class="mdl-data-table mdl-js-data-table mdl-data-table-- mdl-shadow--2dp">
+                <thead>
+                  <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Name</th>
+                    <th>Count</th>
+                    <th>Value</th>
+                    <th></th>
+                    <th></th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr >
+                    <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                    <td>25</td>
+                    <td>50
+                    </td>
+                    <td>
+
+                     <div id="top-icon-select" class="icon material-icons">
+                       <div class="tool-tips-add">
+                        add                     
+                         </div>
+                    </div>
+                  
+                  <div id="tt1" class="icon material-icons">remove</div>
+                  <div class="mdl-tooltip" for="tt1">
+                  Follow
+                  </div>
+
+                  </td> 
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                  <td>50</td>
+                  <td>25
+                  </td>
+                  <td>
+                    <button class="mdl-button mdl-js-button mdl-button--raised ">
+                     +  Add
+                   </button>
+                   <button class="mdl-button mdl-js-button mdl-button--raised ">
+                     - Remove
+                   </button>
+
+                 </td>
+
+
+               </tr>
+               <tr>
+                <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                <td>25</td>
+                <td>50
+                </td>
+                <td>
+                  <div id="icon-select" class="icon material-icons">
+                   <div class="tool-tips-add">
+                    add
+                  </div>
+                </div>
+              <!-- Simple Tooltip -->
+              <div id="tt1" class="icon material-icons">remove</div>
+              <div class="mdl-tooltip" for="tt1">
+              
+              </div>
+
+              </td> 
+
+
+            </tr>
+
+          </tbody>
+        </table>
       </div>
     </div>
 
-  <div class="main-table">
-    <table class="mdl-data-table mdl-js-data-table mdl-data-table-- mdl-shadow--2dp">
-  <thead>
-    <tr>
-      <th class="mdl-data-table__cell--non-numeric">Name</th>
-      <th>Rc 10</th>
-      <th>Rc 20</th>
-      <th>Rc 30</th>
-      <th>Rc 40</th>
-      <th>Rc 50</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Harika</td>
-      <td>25</td>
-      <td>24</td>
-      <td>23</td>
-      <td>22</td>      
-      <td>50</td>
-    </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Harika</td>
-      <td>50</td>
-      <td>49</td>
-      <td>48</td>
-      <td>47</td>      
-      <td>50</td>
-    </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Harika</td>
-      <td>50</td>
-      <td>49</td>
-      <td>48</td>
-      <td>47</td>      
-      <td>50</td>
-    </tr>
-    <tr>
-      <td class="mdl-data-table__cell--non-numeric">Harika</td>
-      <td>50</td>
-      <td>49</td>
-      <td>48</td>
-      <td>47</td>      
-      <td>50</td>
-    </tr>
-    
-  </tbody>
-</table>
-</div>
-</div>
-<div class="mdl-cell mdl-cell--4-col">
-  
-</div>
 
 
+    <div class="mdl-cell mdl-cell--4-col">
+    </div>
 
+
+    <div id="openModal" class="open-modalDialog" style="display:none;">
+      <div> 
+        <div class="popup-text">
+          Table
+        </div>
+        
+        <div class="popup-textfield">  
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
+            <label class="mdl-textfield__label" for="sample2">Number...</label>
+
+          </div>
+        </div>
+        <br>
+        <div class="popup-button">
+         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+          Add
+        </button>
+
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="top-close-button">close
+
+          
+        </button>
+      </div>
 
     </div>
-  </main>
+  </div>
+  <div id="secondModal" class="modalDialog" style="display:none;">
+    <div > 
+      <div class="popup-text">
+        Table
+      </div>
+
+      <div class="popup-textfield">  
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
+          <label class="mdl-textfield__label" for="sample2">Number...</label>
+
+        </div>
+      </div>
+      <div class="second-popup-textfield">  
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
+          <label class="mdl-textfield__label" for="sample2">Number...</label>
+
+        </div>
+      </div>
+      <br>
+      <div class="popup-button">
+       <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+        Add
+      </button>
+
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="close-button">close
+
+
+      </button>
+    </div>
+
+  </div>
+</div>
 </div>
 
+</div>
+</main>
+</div>
+
+</body>
 
 <script src="libraries/material.min.js"></script>
 
-
-</body>
+<script src="libraries/jquery.min.js"></script>
+<script src="after_edit.js"></script>
 </html>
 
-    
