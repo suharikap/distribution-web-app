@@ -1,0 +1,190 @@
+.main-table{
+	padding: 10px;
+	display: flex;
+	padding-left: 30px;
+
+}
+.table-button
+{
+	padding-bottom: 5px;
+}
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    
+}
+
+
+.open-modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    
+}
+
+.open-modalDialog > div {
+    width: 400px;
+    height:210px; 
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 5px;
+    
+    background: #fff;
+}
+.phone-modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    
+}
+
+.phone-modalDialog > div {
+    width: 400px;
+    height:330px; 
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 5px;
+    
+    background: #fff;
+}
+a:-webkit-any-link
+{
+	text-decoration: none;
+}
+a
+{
+	color: rgb(0,0,0);
+}
+.popup-text
+{
+	padding-left: 40%;
+	padding-top: 20px;
+	font-size: 25px;
+
+}
+.popup-button
+{
+	padding-left: 60%;
+	padding-top: 20px;
+}
+
+.tool-tips-add
+{ 
+	padding-left: 20px;
+
+}
+.mdl-data-table td
+{
+	text-align: left;
+	 border: none;
+	 width: 20%;
+}
+
+.close
+{
+	color: rgb(255,255,255);
+}
+.popup-textfield
+{
+	padding-left: 40px;
+	padding-top: 20px;
+}
+.second-popup-textfield
+{
+	padding-left: 40px;	
+}
+.table-header
+{
+	font-size: 20px;
+   padding-top: 25px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+.mdl-data-table th
+{
+	text-align: left;
+}
+.mdl-card
+{
+	width: 100%;
+}
+
+.table-bottom
+{
+    padding-top: 25px;
+}
+.mdl-textfield
+{
+	width: 300px;
+}
+.table-footer
+{
+	display: flex;
+}
+.table-footer-text
+{
+	
+	padding-left: 35%;
+	width: 30%;
+
+}
+.table-footer-field
+{
+	padding-left: 30px;
+	width: 20%;
+}
+.top-text
+{
+	width: 35%;
+}
+.top-text-count
+{
+	width: 15%;
+}
+.header-text
+{
+	font-weight: bold;
+	
+}
+.body-text
+{
+	font-size: 13px;
+}
+.top-text-align
+{
+	padding-left: 13px;
+	width: 33%;
+}
+.phone-text
+{
+	display: flex;
+	padding-top: 20px;
+}
+.phone-table
+{
+	padding-left: 40px;
+
+	width: 30%;
+}
+.phone-top-text
+{
+	display: flex;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
