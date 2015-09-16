@@ -9,6 +9,12 @@ $(document).ready(function(){
      $("#phone-close-button").click(function(){
           $("#phoneModal").hide();
      });
+     $("#fos-close-button").click(function(){
+          $("#fosModal").hide();
+     });
+     $("#stock-close-button").click(function(){
+          $("#stockModal").hide();
+     });
 
      $("#icon-select").click(function(){
      	console.log("icon clicked");
@@ -17,16 +23,24 @@ $(document).ready(function(){
      $("#top-close-button").click(function(){
      	$("#openModal").hide();
      });
-     $("#top-icon-select").click(function(){
+     $(".top-icon-select").click(function(){
      	console.log("icon clicked");
      	$("#openModal").show();
      });
-     $("#remove-icon-select").click(function(){
+     $(".remove-icon-select").click(function(){
           console.log("icon clicked");
           $("#removeModal").show();
      });
      $("#phone-icon-select").click(function(){
           console.log("icon clicked");
           $("#phoneModal").show();
+     });
+     $(".fos-icon-select").click(function(){
+          console.log("icon clicked");
+          $("#fosModal").show();
+     });
+     $(".stock-icon-select").click(function(){
+          console.log("icon clicked");
+          $("#stockModal").show();
      });
 });

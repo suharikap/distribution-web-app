@@ -1,7 +1,13 @@
 .main-table{
 	padding: 10px;
 	display: flex;
-	padding-left: 30px;
+	padding-left: 40px;
+
+}
+.fos-main-table{
+	padding: 10px;
+	display: flex;
+	padding-left: 100px;
 
 }
 .table-button
@@ -34,7 +40,7 @@
 
 .open-modalDialog > div {
     width: 400px;
-    height:210px; 
+  
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 5px;
@@ -52,9 +58,10 @@
     
 }
 
-.phone-modalDialog > div {
-    width: 400px;
-    height:330px; 
+.phone-modalDialog > .phone-popup {
+    width: 700px;
+    max-height: 80%;
+    
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 5px;
@@ -76,24 +83,31 @@ a
 	font-size: 25px;
 
 }
+.account-popup-text
+{
+	padding-left: 35%;
+	padding-top: 20px;
+	font-size: 25px;
+
+}
+.remove-popup-text
+{
+	padding-left: 30%;
+	padding-top: 20px;
+	font-size: 25px;
+
+}
 .popup-button
 {
 	padding-left: 60%;
 	padding-top: 20px;
 }
-
-.tool-tips-add
-{ 
-	padding-left: 20px;
-
-}
 .mdl-data-table td
 {
-	text-align: left;
-	 border: none;
-	 width: 20%;
+ text-align: left;
+ border: none;
+ width: 20%;
 }
-
 .close
 {
 	color: rgb(255,255,255);
@@ -101,6 +115,11 @@ a
 .popup-textfield
 {
 	padding-left: 40px;
+	padding-top: 20px;
+}
+.remove-popup-textfield
+{
+	padding-left: 55px;
 	padding-top: 20px;
 }
 .second-popup-textfield
@@ -122,6 +141,7 @@ a
 .mdl-card
 {
 	width: 100%;
+	padding-bottom: 20px;
 }
 
 .table-bottom
@@ -141,16 +161,23 @@ a
 	
 	padding-left: 35%;
 	width: 30%;
+	font-weight: bold;
 
 }
 .table-footer-field
 {
 	padding-left: 30px;
 	width: 20%;
+	font-weight: bold;
 }
 .top-text
 {
 	width: 35%;
+}
+.top-fos-text
+{
+	padding-left:10px;
+	width: 33%;
 }
 .top-text-count
 {
@@ -177,14 +204,80 @@ a
 }
 .phone-table
 {
-	padding-left: 40px;
-
+	padding-left: 60px;
 	width: 30%;
+}
+.account-table
+{
+	padding-left: 40px;
+	width: 20%;
+}
+.account-align-table
+{
+	padding-left: 55px;
+	width: 20%;
+
 }
 .phone-top-text
 {
 	display: flex;
-	padding-top: 20px;
 	font-weight: bold;
+}
+.scroll-bar
+{
+	margin-top: 10px;
+	overflow: auto;
+	height: 300px;
+
+}
+.phone-popup-search
+{
+	display: flex;
+	padding-left: 60px;
+}
+.account-popup-search
+{
+	display: flex;
+	padding-left: 40px;
+}
+.search-left
+{
+	padding-top:30px;
+	font-weight: bold;
+}
+
+.search-right
+{
+	padding-left:50px;
+	width: 60%;
+}
+.search-account-right
+{
+	padding-left:50px;
+	width: 60%;
+}
+.phone-popup-button
+{
+	padding-left: 85%;
+}
+.fos-button
+{
+	padding-top: 10px;
+	padding-left: 80%;
+}
+
+.fos-main
+{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.fos-top-text
+{
+	display: flex;
+	font-weight: bold;
+}
+.body
+{
+  background-color: #FBFBFB;
 }
 

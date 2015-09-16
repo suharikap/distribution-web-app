@@ -1,0 +1,64 @@
+.top-card
+{
+	display: flex;
+   padding-top: 20px;
+
+}
+.top-card-header
+{
+	display: flex;
+   padding-top: 20px;
+   font-weight: bold;
+
+}
+.top-card-text
+{
+	width: 90%;
+}
+.mdl-card
+{
+	width: 100%;
+	margin-bottom: 30px;
+
+}
+.top-left-text
+{
+	padding-left: 40px;
+	width: 90%;
+	font-weight: bold;
+}
+.top-middle-text
+{
+	padding-left: 15px;
+	width: 90%;
+
+}
+.dropdown-card
+{
+	display: flex;
+	
+	padding-left: 15px;
+}
+.dropdown
+{
+	padding-left: 20px;
+	padding-top: 70px;
+}
+.mdl-textfield
+{
+	width: 80%;
+}
+.text-field
+{
+	padding-left: 20px;
+	width: 20%;
+	padding-top: 45px;
+}
+.button
+{
+	padding-top: 60px;
+}
+.body
+{
+  background-color: #FBFBFB;
+}

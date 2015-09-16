@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">    
   <link href="stock.css" rel="stylesheet">
 </head>
-<body>
+<body class="body-color">
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
@@ -16,12 +16,14 @@
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
         <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <a class="mdl-navigation__link" href="./main.html">Closed Stock</a> 
-          <a class="mdl-navigation__link" href="./Dashboard.html">DashBoard</a>
-          <a class="mdl-navigation__link" href="./after_edit.html">Stock</a>
+          <a class="mdl-navigation__link" href="./DashBoard.html">DashBoard</a> 
+          <a class="mdl-navigation__link" href="./stock.html">Stock</a>
+          <a class="mdl-navigation__link" href="./fos.html">Fos</a>
+          <a class="mdl-navigation__link" href="./account.html">Account</a>
+          
           <a class="mdl-navigation__link" href="./settings.html">Settings</a>
           <a class="mdl-navigation__link" href="">Logout</a>
-        </nav>
+                  </nav>
       </div>
     </header>
     <div class="mdl-layout__drawer">
@@ -40,68 +42,69 @@
           </div>
           <div class="mdl-cell mdl-cell--6-col">
            <div class="mdl-card mdl-shadow--2dp through mdl-shadow--2dp">
-           <div class="table-header">
-             Stock
-           </div>
-           <div class="header-text">
-            <div class="main-table">
-            
-            <div class="top-text">
-              Name
-            </div>
-            <div class="top-text">
-              Count
-            </div>
-            <div class="top-text-count">
-              Value
-            </div>
-            </div>
+             <div class="table-header">
+               Stock
+             </div>
+             <div class="header-text">
+              <div class="main-table">
+                <div class="top-text">
+                  Name
+                </div>
+                <div class="top-text">
+                  Count
+                </div>
+                <div class="top-text-count">
+                  Value
+                </div>
+              </div>
             </div>
             <div class="body-text">
-            <div class="main-table">
-            <div class="top-text">
-              Rc10
-            </div>
-            <div class="top-text-align">
-              25
-            </div>
-            <div class="top-text-count">
-              Rs 200
-            </div>
-            
-              <div id="top-icon-select" class="icon material-icons">
-                       <div class="tool-tips-add">
-                       add                     
-                      </div>
-                    </div>
-                       <div id="remove-icon-select" class="icon material-icons">
-                    <div class="tool-tips-add">
-                    remove
-                   </div>  
-            </div>
-            </div>
-             <div class="main-table">
-            <div class="top-text">
-              Rc20
-            </div>
-            <div class="top-text-align">
-              25
-            </div>
-            <div class="top-text-count">
-              Rs 200
-            </div>
-            
-              <div id="top-icon-select" class="icon material-icons">
-                       <div class="tool-tips-add">
-                       add                     
-                      </div>
-                    </div>
-                    <div id="tt1" class="icon material-icons">remove</div>
-                    <div class="mdl-tooltip" for="tt1">
-                     
-            </div>
+              <div class="main-table">
+                <div class="top-text">
+                  Rc10
+                </div>
+                <div class="top-text-align">
+                  25
+                </div>
+                <div class="top-text-count">
+                  Rs 200
+                </div>
+
+                <div  id="" class="icon material-icons top-icon-select" style="cursor:pointer">
+                 <div class="tool-tips-add">
+                   add                     
+                 </div>
+               </div>
+               <div id="" class="icon material-icons remove-icon-select" style="cursor:pointer">
+                <div class="tool-tips-add">
+                  remove
+                </div>  
+              </div>
             </div>
             <div class="main-table">
+              <div class="top-text">
+                Rc20
+              </div>
+              <div class="top-text-align">
+                25
+              </div>
+              <div class="top-text-count">
+                Rs 200
+              </div>
+
+              <div id="" class="icon material-icons top-icon-select" style="cursor:pointer">
+               <div class="tool-tips-add">
+                 add                     
+               </div>
+
+             </div>
+             <div id="" class="icon material-icons remove-icon-select" style="cursor:pointer">
+              <div class="tool-tips-add">
+                remove
+              </div>  
+            </div>
+          </div>
+          <div class="main-table">
             <div class="top-text">
               Rc30
             </div>
@@ -112,370 +115,702 @@
               Rs 200
             </div>
             
-                    <div id="icon-select" class="icon material-icons">
-                   <div class="tool-tips-add">
-                    add
-                  </div>
-                    </div>
-                    <div id="tt1" class="icon material-icons">remove</div>
-                    <div class="mdl-tooltip" for="tt1">
-                     </div>
-              </div>
-          
-          <div class="main-table">
-            <div class="top-text">
-              Phone
+            <div id="" class="icon material-icons top-icon-select" style="cursor:pointer">
+             <div class="tool-tips-add">
+              add
             </div>
-            <div class="top-text-align">
-              25
-            </div>
-            <div class="top-text-count">
-              Rs 20000
-            </div>
-            
-              <div id="top-icon-select" class="icon material-icons">
-                       <div class="tool-tips-add">
-                       add                     
-                      </div>
-                    </div>
-                       <div id="phone-icon-select" class="icon material-icons">
-                    <div class="tool-tips-add">
-                    remove
-                   </div>  
-            </div>
-            </div>
-            </div>
-          <div class="main-table">
-            <div class="table-footer-text">Total</div>
-
-           <div class="table-footer-field">
-             Rs 20600
-           </div>
-            </div>
-
-
-
-    <div class="table-header">
-             Fos
-           </div>
-       <div class="header-text">
-            <div class="main-table">
-            
-            <div class="top-text">
-              Name
-            </div>
-            <div class="top-text">
-              Count
-            </div>
-            <div class="top-text-count">
-              Value
-            </div>
-            </div>
-            </div>
-            <div class="body-text">
-            <div class="main-table">
-            <div class="top-text">
-             Suharika
-            </div>
-            <div class="top-text-align">
-              25
-            </div>
-            <div class="top-text-count">
-              Rs 200
-            </div>
-            
-              <div id="top-icon-select" class="icon material-icons">
-                       <div class="tool-tips-add">
-                       add                     
-                      </div>
-                    </div>
-                    <div id="tt1" class="icon material-icons">remove</div>
-                    <div class="mdl-tooltip" for="tt1">
-            </div>   
-            
-            </div>
-             <div class="main-table">
-            <div class="top-text">
-              Sanath
-            </div>
-            <div class="top-text-align">
-              25
-            </div>
-            <div class="top-text-count">
-              Rs 200
-            </div>
-            
-              <div id="top-icon-select" class="icon material-icons">
-                       <div class="tool-tips-add">
-                       add                     
-                      </div>
-                    </div>
-                    <div id="tt1" class="icon material-icons">remove</div>
-                    <div class="mdl-tooltip" for="tt1">
-                     
-            </div>
-            </div>
-            <div class="main-table">
-            <div class="top-text">
-              Harika
-            </div>
-            <div class="top-text-align">
-              35
-            </div>
-            <div class="top-text-count">
-              Rs 200
-            </div>
-            
-                    <div id="icon-select" class="icon material-icons">
-                   <div class="tool-tips-add">
-                    add
-                  </div>
-                    </div>
-                    <div id="tt1" class="icon material-icons">remove</div>
-                    <div class="mdl-tooltip" for="tt1">
-                     </div>
-              </div>
           </div>
-          <div class="main-table">
-            <div class="table-footer-text">Total</div>
-
-           <div class="table-footer-field">
-             600
-           </div>
-            </div>
-
-     <div class="table-header">
-             Account
-           </div>
-           <div class="header-text">
-            <div class="main-table">
-            
-            <div class="top-text">
-              Name
-            </div>
-            <div class="top-text">
-              Count
-            </div>
-            <div class="top-text-count">
-              Value
-            </div>
-            </div>
-            </div>
-            <div class="body-text">
-            <div class="main-table">
-            <div class="top-text">
-              Rc10
-            </div>
-            <div class="top-text-align">
-              25
-            </div>
-            <div class="top-text-count">
-              Rs 200
-            </div>
-            
-              <div id="top-icon-select" class="icon material-icons">
-                       <div class="tool-tips-add">
-                       add                     
-                      </div>
-                    </div>
-                    <div id="tt1" class="icon material-icons">remove</div>
-                    <div class="mdl-tooltip" for="tt1">
-            </div>   
-            
-            </div>
-             <div class="main-table">
-            <div class="top-text">
-              Rc20
-            </div>
-            <div class="top-text-align">
-              25
-            </div>
-            <div class="top-text-count">
-              Rs 200
-            </div>
-            
-              <div id="top-icon-select" class="icon material-icons">
-                       <div class="tool-tips-add">
-                       add                     
-                      </div>
-                    </div>
-                    <div id="tt1" class="icon material-icons">remove</div>
-                    <div class="mdl-tooltip" for="tt1">
-                     
-            </div>
-            </div>
-            <div class="main-table">
-            <div class="top-text">
-              Rc30
-            </div>
-            <div class="top-text-align">
-              35
-            </div>
-            <div class="top-text-count">
-              Rs 200
-            </div>
-            
-                    <div id="icon-select" class="icon material-icons">
-                   <div class="tool-tips-add">
-                    add
-                  </div>
-                    </div>
-                    <div id="tt1" class="icon material-icons">remove</div>
-                    <div class="mdl-tooltip" for="tt1">
-                     </div>
-              </div>
+          <div id="" class="icon material-icons remove-icon-select" style="cursor:pointer">
+            <div class="tool-tips-add">
+              remove
+            </div>  
           </div>
-          <div class="main-table">
-            <div class="table-footer-text">Total</div>
+        </div>
 
-           <div class="table-footer-field">
-             600
+        <div class="main-table">
+          <div class="top-text">
+            Phone
+          </div>
+          <div class="top-text-align">
+            25
+          </div>
+          <div class="top-text-count">
+            Rs 20000
+          </div>
+
+          <div id="icon-select" class="icon material-icons" style="cursor:pointer">
+
+           <div class="tool-tips-add">
+             add 
+
            </div>
-            </div>
-          <div class="main-table">
-            <div class="table-footer-text">Total Stock</div>
 
-           <div class="table-footer-field">
-             600
-           </div>
-            </div>
+         </div>
 
-           
+         <div id="phone-icon-select" class="icon material-icons" style="cursor:pointer">
+          <div class="tool-tips-add">
+            remove
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="main-table">
+      <div class="table-footer-text">Total</div>
+
+      <div class="table-footer-field">
+       Rs 20600
+     </div>
+   </div>
+
+
+
+   <div class="table-header">
+     Fos
+   </div>
+   <div class="header-text">
+    <div class="main-table">
+
+      <div class="top-text">
+        Name
+      </div>
+      <div class="top-text">
+        Count
+      </div>
+      <div class="top-text-count">
+        Value
+      </div>
+    </div>
+  </div>
+  <div class="body-text">
+    <div class="main-table">
+      <div class="top-text">
+        <div class="fos-icon-select" style="cursor:pointer">
+         Suharika
        </div>
+     </div>
+     <div class="top-text-align">
+      25
+    </div>
+    <div class="top-text-count">
+      Rs 200
+    </div>
 
+
+  </div>
+  <div class="main-table">
+    <div class="top-text">
+      <div class="fos-icon-select" style="cursor:pointer">
+        Sanath
       </div>
     </div>
+    <div class="top-text-align">
+      25
     </div>
-    <div class="mdl-cell mdl-cell--3-col">
-    </div>
-    <div id="openModal" class="open-modalDialog" style="display:none;">
-      <div> 
-        <div class="popup-text">
-          Add Stock
-        </div>
-          <div class="popup-textfield">  
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
-            <label class="mdl-textfield__label" for="sample2">Add Stock</label>
-          </div>
-        </div>
-        <br>
-        <div class="popup-button">
-         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-          Add
-        </button>
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="top-close-button">close
-        </button>
-      </div>
+    <div class="top-text-count">
+      Rs 200
     </div>
   </div>
-
-     <div id="removeModal" class="open-modalDialog" style="display:none;">
-      <div> 
-        <div class="popup-text">
-          Remove Stock
-        </div>
-          <div class="popup-textfield">  
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
-            <label class="mdl-textfield__label" for="sample2">Remove Stock</label>
-          </div>
-        </div>
-        <br>
-        <div class="popup-button">
-         <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-          Add
-        </button>
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="remove-close-button">
-        close
-        </button>
+  <div class="main-table">
+    <div class="top-text">
+      <div class="fos-icon-select" style="cursor:pointer">
+        Harika
       </div>
     </div>
+    <div class="top-text-align">
+      35
+    </div>
+    <div class="top-text-count">
+      Rs 200
+    </div>
+
+
   </div>
+</div>
+<div class="main-table">
+  <div class="table-footer-text">Total</div>
+
+  <div class="table-footer-field">
+   Rs 600
+ </div>
+</div>
+
+<div class="table-header">
+ Account
+</div>
+<div class="header-text">
+  <div class="main-table">
+
+    <div class="top-text">
+      Name
+    </div>
+    <div class="top-text">
+      Count
+    </div>
+    <div class="top-text-count">
+      Value
+    </div>
+  </div>
+</div>
+<div class="body-text">
+  <div class="main-table">
+    <div class="top-text">
+      <div class="stock-icon-select" style="cursor:pointer">
+        Google
+      </div>
+    </div>
+    <div class="top-text-align">
+      25
+    </div>
+    <div class="top-text-count">
+      Rs 200
+    </div>
 
 
-  <div id="secondModal" class="open-modalDialog" style="display:none;">
-    <div> 
-      <div class="popup-text">
-        Add Stock
+  </div>
+  <div class="main-table">
+    <div class="top-text">
+      <div class="stock-icon-select" style="cursor:pointer">
+        Facebook
       </div>
-      <div class="popup-textfield">  
+    </div>
+    <div class="top-text-align">
+      25
+    </div>
+    <div class="top-text-count">
+      Rs 200
+    </div>
+
+  </div>
+  <div class="main-table">
+    <div class="top-text">
+      <div class="stock-icon-select" style="cursor:pointer">
+        Twitter
+      </div>
+    </div>
+    <div class="top-text-align">
+      35
+    </div>
+    <div class="top-text-count">
+      Rs 200
+    </div>
+  </div>
+</div>
+<div class="main-table">
+  <div class="table-footer-text">Total</div>
+  <div class="table-footer-field">
+    Rs 600
+  </div>
+</div>
+<div class="main-table">
+  <div class="table-footer-text">Total Stock</div>
+
+  <div class="table-footer-field">
+   Rs 600
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mdl-cell mdl-cell--3-col">
+</div>
+<div id="openModal" class="open-modalDialog" style="display:none;">
+  <div> 
+    <div class="popup-text">
+      Add Stock
+    </div>
+    <div class="popup-textfield">  
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
+        <label class="mdl-textfield__label" for="sample2">Add Stock</label>
+      </div>
+    </div>
+    <br>
+    <div class="popup-button">
+     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      Add
+    </button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="top-close-button">close
+    </button>
+  </div>
+</div>
+</div>
+
+<div id="removeModal" class="open-modalDialog" style="display:none;">
+  <div> 
+    <div class="remove-popup-text">
+      Remove Stock
+    </div>
+    <div class="remove-popup-textfield">  
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
+        <label class="mdl-textfield__label" for="sample2">Remove Stock</label>
+      </div>
+    </div>
+    <br>
+    <div class="popup-button">
+     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      Add
+    </button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="remove-close-button">
+      close
+    </button>
+  </div>
+</div>
+</div>
+
+
+<div id="secondModal" class="open-modalDialog" style="display:none;">
+  <div> 
+    <div class="popup-text">
+      Add Stock
+    </div>
+    <div class="popup-textfield">  
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
+        <label class="mdl-textfield__label" for="sample2">Unique id</label>
+      </div>
+    </div>
+    <div class="second-popup-textfield">  
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
+        <label class="mdl-textfield__label" for="sample2">Cost Price</label>
+      </div>
+    </div>
+    <br>
+    <div class="popup-button">
+     <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+      Add
+    </button>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="close-button">close
+    </button>
+  </div>
+</div>
+</div>
+
+<div id="phoneModal" class="open-modalDialog" style="display:none;">
+  <div class="phone-popup"> 
+    <div class="popup-text">
+      Phone Stock
+    </div>
+    <div class="phone-popup-search">
+      <div class="search-left">Search</div>
+
+      <div class="search-right">      
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
-          <label class="mdl-textfield__label" for="sample2">Unique id</label>
+          <input class="mdl-textfield__input" type="text" id="sample1" />
+          <label class="mdl-textfield__label" for="sample1">Enter some text</label>
         </div>
       </div>
-      <div class="second-popup-textfield">  
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
-          <label class="mdl-textfield__label" for="sample2">Cost Price</label>
+
+    </div>
+    <div class="scroll-bar">
+      <div class="phone-top-text">
+       <div class="phone-table">
+         Unique Id
+       </div>
+       <div class="phone-table">
+         Cost Price
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="phone-table">
+         Samsung
+       </div>
+       <div class="phone-table">
+         10000
+       </div>
+       <div>
+         <i class="material-icons">&#xE872;</i>
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="phone-table">
+         Samsung
+       </div>
+       <div class="phone-table">
+         10000
+       </div>
+       <div>
+         <i class="material-icons">&#xE872;</i> 
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="phone-table">
+         Samsung
+       </div>
+       <div class="phone-table">
+         10000
+       </div>
+       <div>
+        <i class="material-icons">&#xE872;</i> 
+      </div>
+    </div>
+    <div class="phone-text">
+     <div class="phone-table">
+       Samsung
+     </div>
+     <div class="phone-table">
+       10000
+     </div>
+     <div>
+      <i class="material-icons">&#xE872;</i> 
+    </div>
+  </div>
+  <div class="phone-text">
+   <div class="phone-table">
+     Samsung
+   </div>
+   <div class="phone-table">
+     10000
+   </div>
+   <div>
+    <i class="material-icons">&#xE872;</i> 
+  </div>
+</div>
+<div class="phone-text">
+ <div class="phone-table">
+   Samsung
+ </div>
+ <div class="phone-table">
+   10000
+ </div>
+ <div>
+  <i class="material-icons">&#xE872;</i> 
+</div>
+</div>
+<div class="phone-text">
+ <div class="phone-table">
+   Samsung
+ </div>
+ <div class="phone-table">
+   10000
+ </div>
+ <div>
+  <i class="material-icons">&#xE872;</i> 
+</div>
+</div>
+<div class="phone-text">
+ <div class="phone-table">
+   Samsung
+ </div>
+ <div class="phone-table">
+   10000
+ </div>
+ <div>
+  <i class="material-icons">&#xE872;</i> 
+</div>
+</div>
+<div class="phone-text">
+ <div class="phone-table">
+   Samsung
+ </div>
+ <div class="phone-table">
+   10000
+ </div>
+ <div>
+  <i class="material-icons">&#xE872;</i> 
+</div>
+</div>
+<div class="phone-text">
+ <div class="phone-table">
+   Samsung
+ </div>
+ <div class="phone-table">
+   10000
+ </div>
+ <div>
+  <i class="material-icons">&#xE872;</i> 
+</div>
+</div>
+<div class="phone-text">
+ <div class="phone-table">
+   Samsung
+ </div>
+ <div class="phone-table">
+   10000
+ </div>
+ <div>
+  <i class="material-icons">&#xE872;</i> 
+</div>
+</div>
+<div class="phone-text">
+ <div class="phone-table">
+   Samsung
+ </div>
+ <div class="phone-table">
+   10000
+ </div>
+ <div>
+  <i class="material-icons">&#xE872;</i> 
+</div>
+</div>
+</div>
+<br>
+<div class="phone-popup-button">
+
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="phone-close-button">close
+  </button>
+</div>
+</div>
+</div>
+
+<div id="fosModal" class="open-modalDialog" style="display:none;">
+  <div> 
+    <div class="popup-text">
+      Fos Stock
+    </div>
+
+    <div class="fos-main">
+      <div class="scroll-bar">
+        <div class="header-text">
+          <div class="main-table">
+            <div class="top-text">
+              Name
+            </div>
+            <div class="top-text">
+              Count
+            </div>
+            <div class="top-text-count">
+              Value
+            </div>
+          </div>
+        </div>
+        <div class="main-table">
+          <div class="top-text">
+            Rc 10
+          </div>
+          <div class="top-fos-text">
+            25
+          </div>
+          <div class="top-text-count">
+            Rs 200
+          </div>
+        </div>
+        <div class="main-table">
+          <div class="top-text">
+            Rc 10
+          </div>
+          <div class="top-fos-text">
+            25
+          </div>
+          <div class="top-text-count">
+            Rs 200
+          </div>
+        </div>
+        <div class="main-table">
+          <div class="top-text">
+            Rc 10
+          </div>
+          <div class="top-fos-text">
+            25
+          </div>
+          <div class="top-text-count">
+            Rs 200
+          </div>
+        </div>
+        <div class="main-table">
+          <div class="top-text">
+            Rc 10
+          </div>
+          <div class="top-fos-text">
+            25
+          </div>
+          <div class="top-text-count">
+            Rs 200
+          </div>
+        </div>
+        <div class="main-table">
+          <div class="top-text">
+            Rc 10
+          </div>
+          <div class="top-fos-text">
+            25
+          </div>
+          <div class="top-text-count">
+            Rs 200
+          </div>
+        </div>
+        <div class="main-table">
+          <div class="top-text">
+            Rc 10
+          </div>
+          <div class="top-fos-text">
+            25
+          </div>
+          <div class="top-text-count">
+            Rs 200
+          </div>
+        </div>
+        <div class="main-table">
+          <div class="top-text">
+            Rc 10
+          </div>
+          <div class="top-fos-text">
+            25
+          </div>
+          <div class="top-text-count">
+            Rs 200
+          </div>
+        </div>
+        <div class="main-table">
+          <div class="top-text">
+            Rc 10
+          </div>
+          <div class="top-fos-text">
+            25
+          </div>
+          <div class="top-text-count">
+            Rs 200
+          </div>
         </div>
       </div>
-      <br>
-      <div class="popup-button">
-       <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-        Add
-      </button>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="close-button">close
+    </div>
+    <div class="fos-button">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="fos-close-button">close
       </button>
     </div>
   </div>
 </div>
 
-<div id="phoneModal" class="phone-modalDialog" style="display:none;">
-      <div class="phone-popup"> 
-        <div class="popup-text">
-          Add Stock
-        </div>
-      <div class="phone-top-text">
-         <div class="phone-table">
-         Unique
-         </div>
-         <div class="phone-table">
-         Cost Price
-         </div>
-       </div>
-       <div class="phone-text">
-         <div class="phone-table">
-         Samsung
-         </div>
-         <div class="phone-table">
-         10000
-         </div>
-         <div>
-           <i class="material-icons">&#xE872;</i>
-         </div>
-       </div>
-        <div class="phone-text">
-         <div class="phone-table">
-         Samsung
-         </div>
-         <div class="phone-table">
-         10000
-         </div>
-         <div>
-           <i class="material-icons">&#xE872;</i> 
-         </div>
-       </div>
-        <div class="phone-text">
-         <div class="phone-table">
-         Samsung
-         </div>
-         <div class="phone-table">
-         10000
-         </div>
-         <div>
-          <i class="material-icons">&#xE872;</i> 
-         </div>
-       </div>
-        <br>
-        <div class="popup-button">
-         
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="phone-close-button">close
-        </button>
-      </div>
+<div id="stockModal" class="open-modalDialog" style="display:none;">
+  <div class="phone-popup"> 
+    <div class="account-popup-text">
+      Account Stock
     </div>
+    <div class="account-popup-search">
+      <div class="search-left">Search</div>
+
+      <div class="search-account-right">      
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="sample1" />
+          <label class="mdl-textfield__label" for="sample1">Enter some text</label>
+        </div>
+      </div>
+
+    </div>
+    <div class="scroll-bar">
+      <div class="phone-top-text">
+       <div class="account-table">
+         Name
+       </div>
+       <div class="account-table">
+         Unique Id
+       </div>
+       <div class="account-table">
+         Cost Price
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="account-table">
+         Samsung
+       </div>
+       <div class="account-align-table">
+         521
+       </div>
+       <div class="account-table">
+         10000
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="account-table">
+         Samsung
+       </div>
+       <div class="account-align-table">
+         521
+       </div>
+       <div class="account-table">
+         10000
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="account-table">
+         Samsung
+       </div>
+       <div class="account-align-table">
+         521
+       </div>
+       <div class="account-table">
+         10000
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="account-table">
+         Samsung
+       </div>
+       <div class="account-align-table">
+         521
+       </div>
+       <div class="account-table">
+         10000
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="account-table">
+         Samsung
+       </div>
+       <div class="account-align-table">
+         521
+       </div>
+       <div class="account-table">
+         10000
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="account-table">
+         Samsung
+       </div>
+       <div class="account-align-table">
+         521
+       </div>
+       <div class="account-table">
+         10000
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="account-table">
+         Samsung
+       </div>
+       <div class="account-align-table">
+         521
+       </div>
+       <div class="account-table">
+         10000
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="account-table">
+         Samsung
+       </div>
+       <div class="account-align-table">
+         521
+       </div>
+       <div class="account-table">
+         10000
+       </div>
+     </div>
+     <div class="phone-text">
+       <div class="account-table">
+         Samsung
+       </div>
+       <div class="account-align-table">
+         521
+       </div>
+       <div class="account-table">
+         10000
+       </div>
+     </div>
+
+   </div>
+   <br>
+   <div class="phone-popup-button">
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" id="stock-close-button">close
+    </button>
   </div>
+</div>
+</div>
+
+
 </div>
 </div>
 </main>

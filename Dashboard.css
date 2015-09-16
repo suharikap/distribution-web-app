@@ -103,3 +103,7 @@ h1 {
 .chart path:hover { 
   opacity: 0.005; 
 }
+.body
+{
+  background-color: #FBFBFB;
+}
