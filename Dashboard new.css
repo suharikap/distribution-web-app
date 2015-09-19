@@ -1,0 +1,220 @@
+.mdl-card
+{
+	width: 100%;
+
+}
+
+.card
+{
+	display: flex;
+}
+.mdl-cell
+{
+	margin: 0px;
+}
+.card-left
+{
+	min-height: 490px;
+	margin-left: 20px;
+	width: 97%;
+}
+.card-middle
+{
+ 
+}
+
+.card-bottom
+{
+ 
+}
+.table-header
+{
+	font-size: 20px;
+   padding-top: 25px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+.header-text
+{
+	font-weight: bold;
+	
+}
+.main-table
+{
+	padding: 10px;
+	display: flex;
+	padding-left: 50px;
+}
+.top-text
+{
+	width: 40%;
+}
+.top-text-count
+{
+	width: 15%;
+}
+.body-text
+{
+	font-size: 13px;
+}
+.top-text-align
+{
+	padding-left: 13px;
+	width: 38%;
+}
+.top-text-count
+{
+	width: 15%;
+}
+.table-footer-text
+{
+	
+	padding-left: 10%;
+	width: 50%;
+	font-weight: bold;
+
+}
+.table-footer-field
+{
+	padding-left: 100px;
+	width: 20%;
+	font-weight: bold;
+}
+.card-top
+{
+	text-align: center;
+	font :bold;
+	font-size: 18px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.chart 
+{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.doughnutTip {
+  position: absolute;
+  z-index: 10;
+  float: left;
+  min-width: 30px;
+  max-width: 300px;
+  padding: 5px 15px;
+  border-radius: 1px;
+  background: rgba(0,0,0,.8);
+  color: #ddd;
+  font-size: 17px;
+  text-shadow: 0 1px 0 #000;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.3;
+  letter-spacing: .06em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  text-transform: all .3s;
+  pointer-events: none;
+}
+.doughnutTip:after {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  bottom: -6px;
+  content: "";
+  height: 0;
+  margin: 0 0 0 -6px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 6px solid rgba(0,0,0,.7);
+  line-height: 0;
+}
+.doughnutSummary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  text-shadow: 0 -1px 0 #111;
+  cursor: default;
+}
+.doughnutSummaryTitle {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  margin-top: -27%;
+  font-size: 12px;
+  letter-spacing: .06em;
+}
+.doughnutSummaryNumber {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -15%;
+  font-size: 15px;
+}
+canvas
+{
+	padding-left: 30px;
+}
+.mdl-data-table
+{
+	width: 100%;
+	border-style: none;
+}
+.table
+{
+	padding: 10px;
+}
+.table-text
+{
+	padding-right: 30px;
+}
+.table-right
+{
+	display: flex;
+	float: right;
+	padding-right: 10px;
+}
+.table-right-text
+{
+	padding-bottom: 20px;
+	padding-right: 5px;
+}
+.table-icon
+{
+	padding-bottom: 20px;
+}
+.middle-card
+{
+	display: flex;
+	padding-left: 10px;
+}
+.barchart
+{
+	margin-right: 15%;
+}
+.table-bottom
+{
+  
+
+}
+.card-align
+{
+	display: flex;
+}
+.chart-bottom
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	font: bold;
+	padding-bottom: 30px;
+}
+.mdl-data-table td
+{
+	border: 0;
+}
+#bar-chart
+{
+	width: 80%;
+	padding-bottom: 10px;
+}

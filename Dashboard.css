@@ -37,7 +37,8 @@ h1 {
   margin: 20px 0;
   text-transform: uppercase;
 }
-.chart {
+.chart 
+{
   margin: 0 auto;
   width: 150px;
   height: 150px;
@@ -103,7 +104,7 @@ h1 {
 .chart path:hover { 
   opacity: 0.005; 
 }
-.body
+body
 {
   background-color: #FBFBFB;
 }

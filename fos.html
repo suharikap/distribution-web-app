@@ -1,7 +1,6 @@
 <html lang="en" class="mdl-js">
 <head>
   <title>p2</title>
-
   <link rel="stylesheet" href="libraries/material.indigo-pink.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">    
   <link href="fos.css" rel="stylesheet">
@@ -10,101 +9,124 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <!-- Title -->
         <span class="mdl-layout-title">Distribution App</span>
         <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
         <nav class="mdl-navigation mdl-layout--large-screen-only">
          <a class="mdl-navigation__link" href="./DashBoard.html">DashBoard</a> 
-         
-          <a class="mdl-navigation__link" href="./stock.html">Stock</a>
-          <a class="mdl-navigation__link" href="./fos.html">Fos</a>
-          
-          <a class="mdl-navigation__link" href="./account.html">Account</a>
-          
-          <a class="mdl-navigation__link" href="./settings.html">Settings</a>
-          <a class="mdl-navigation__link" href="">Logout</a>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Title</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-      </nav>
-    </div>
-    <main class="mdl-layout__content">
-      <div class="page-content">
-        <div class="mdl-grid">
-          <div class="mdl-cell mdl-cell--3-col">
-          </div>
-          <div class="mdl-cell mdl-cell--6-col">
-           <div class="mdl-card mdl-shadow--2dp through mdl-shadow--2dp">
-            <div class="top-card-header">
-              <div class="top-left-text"></div>
-              <div class="top-card-text">Rc 10</div>
-              <div class="top-card-text">Rc 10</div>
-              <div class="top-card-text">Rc 10</div>
-              
-            </div>
-            <div class="top-card">
-              <div class="top-left-text">Name</div>
-              <div class="top-middle-text">20</div>
-              <div class="top-card-text">30</div>
-              <div class="top-card-text">40</div>
-            </div>
-            <div class="top-card">
-              <div class="top-left-text">Name</div>
-              <div class="top-middle-text">20</div>
-              <div class="top-card-text">30</div>
-              <div class="top-card-text">40</div>
-            </div>
-            <div class="top-card">
-              <div class="top-left-text">Name</div>
-              <div class="top-middle-text">20</div>
-              <div class="top-card-text">30</div>
-              <div class="top-card-text">40</div>
-            </div>
+         <a class="mdl-navigation__link" href="./stock.html">Stock</a>
+         <a class="mdl-navigation__link" href="./fos.html">Fos</a>
+         <a class="mdl-navigation__link" href="./account.html">Account</a>
+         <a class="mdl-navigation__link" href="./settings.html">Settings</a>
+         <a class="mdl-navigation__link" href="">Logout</a>
+       </nav>
+     </div>
+   </header>
+   <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--3-col">
+        </div>
+        <div class="mdl-cell mdl-cell--6-col">
+          <div class="main-table">
+            <table class="mdl-data-table mdl-js-data-table mdl-data-table-- mdl-shadow--2dp">
+              <thead>
+                <tr>
+                  <th class="mdl-data-table__cell--non-numeric">Name</th>
+                  <th>Rc 10</th>
+                  <th>Rc 20</th>
+                  <th>Rc 30</th>
+                  <th>Rc 40</th>
+                  <th>Rc 50</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                  <td>25</td>
+                  <td>24</td>
+                  <td>23</td>
+                  <td>22</td>      
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                  <td>50</td>
+                  <td>49</td>
+                  <td>48</td>
+                  <td>47</td>      
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                  <td>50</td>
+                  <td>49</td>
+                  <td>48</td>
+                  <td>47</td>      
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                  <td>50</td>
+                  <td>49</td>
+                  <td>48</td>
+                  <td>47</td>      
+                  <td>50</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div class="mdl-card mdl-shadow--2dp through mdl-shadow--2dp">
-          <div class="dropdown-card">
-           <div class="dropdown">
-            <select>
-              <option value="volvo">Action</option>
-              <option value="saab">Give Stock</option>
-              <option value="saab">Return Stock</option>
-              <option value="saab">Sold Stock</option>
-            </select>          
+            <div class="dropdown-card">
+             <div class="dropdown">
+              <select>
+                <option value="volvo">Action</option>
+                <option value="saab">Give Stock</option>
+                <option value="saab">Return Stock</option>
+                <option value="saab">Sold Stock</option>
+              </select>          
+            </div>
+            <div class="dropdown">
+              <select>
+                <option value="volvo">Select Fos</option>
+                <option value="saab">Harika</option>
+                <option value="saab">Suharika</option>
+              </select>          
+            </div>
+          </div>        
+          <div class="bottom-card">
+            <div class="bottom-text">Rc 10</div>
+            <div class="mdl-textfield mdl-js-textfield md-textfield">
+              <input class="mdl-textfield__input" type="text" id="sample1" />
+            </div>
           </div>
-           <div class="dropdown">
-            <select>
-              <option value="volvo">Select Fos</option>
-              <option value="saab">Harika</option>
-              <option value="saab">Suharika</option>
-            </select>          
+          <div class="bottom-card">
+            <div class="bottom-text">Rc 20</div>
+            <div class="mdl-textfield mdl-js-textfield md-textfield">
+              <input class="mdl-textfield__input" type="text" id="sample1" />
+            </div>
           </div>
-          <div class="dropdown">
-            <select>
-              <option value="volvo">Parameter</option>
-              <option value="saab">Closing Stock</option>
-            </select>          
+          <div class="bottom-card">
+            <div class="bottom-text">Rc 30</div>
+            <div class="mdl-textfield mdl-js-textfield md-textfield">
+              <input class="mdl-textfield__input" type="text" id="sample1" />
+            </div>
           </div>
-          <div class="text-field">  
-  <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" id="sample1" placeholder="value" />
-    
-  </div>
+          <div class="bottom-button">       
+            <button class="mdl-button mdl-js-button mdl-button--raised">
+              Save
+            </button>
           </div>
-          <div class="button">          
-<button class="mdl-button mdl-js-button mdl-button--raised">
-  Button
-</button>
-          </div>
-        </div>
         </div>
       </div>
       <div class="mdl-cell mdl-cell--3-col">
@@ -112,8 +134,6 @@
     </div>
   </div>
 </main>
-
-
 </div>
 </body>
 </html>

@@ -1,0 +1,285 @@
+<html lang="en" class="mdl-js">
+<head>
+  <title>p2</title>
+
+  <link rel="stylesheet" href="libraries/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400">   
+  <link href="Dashboard new.css" rel="stylesheet">
+</head>
+<body class="body-color">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Distribution App</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">     
+          <a class="mdl-navigation__link" href="./DashBoard.html">DashBoard</a> 
+          <a class="mdl-navigation__link" href="./stock.html">Stock</a>
+          <a class="mdl-navigation__link" href="./fos.html">Fos</a>
+          <a class="mdl-navigation__link" href="./account.html">Account</a>
+          
+          <a class="mdl-navigation__link" href="./settings.html">Settings</a>
+          <a class="mdl-navigation__link" href="">Logout</a>
+        </nav>
+      </div>
+    </header>
+     <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Title</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content mdl-color--grey-100">
+      <div class="page-content">
+        <div class="mdl-grid">
+          
+          <div class="mdl-cell mdl-cell--5-col">
+          <div class="mdl-card mdl-shadow--2dp through mdl-shadow--2dp card-left">
+          <div class="table-header">
+               Stock
+             </div>
+             <div class="header-text">
+              <div class="main-table">
+                <div class="top-text">
+                  Name
+                </div>
+                <div class="top-text">
+                  Count
+                </div>
+                <div class="top-text-count">
+                  Value
+                </div>
+              </div>
+            </div>
+            <div class="body-text">
+              <div class="main-table">
+                <div class="top-text">
+                  Rc10
+                </div>
+                <div class="top-text-align">
+                  25
+                </div>
+                <div class="top-text-count">
+                  Rs 200
+                </div>
+             </div>
+            
+            <div class="main-table">
+              <div class="top-text">
+                Rc20
+              </div>
+              <div class="top-text-align">
+                25
+              </div>
+              <div class="top-text-count">
+                Rs 200
+              </div>
+              </div>
+              <div class="main-table">
+              <div class="top-text">
+                Rc20
+              </div>
+              <div class="top-text-align">
+                25
+              </div>
+              <div class="top-text-count">
+                Rs 200
+              </div>
+              </div>
+              <div class="main-table">
+              <div class="top-text">
+                Rc20
+              </div>
+              <div class="top-text-align">
+                25
+              </div>
+              <div class="top-text-count">
+                Rs 200
+              </div>
+              </div>
+              <div class="main-table">
+              <div class="top-text">
+                Rc20
+              </div>
+              <div class="top-text-align">
+                25
+              </div>
+              <div class="top-text-count">
+                Rs 200
+              </div>
+              </div>
+          </div>
+          <div class="main-table">
+      <div class="table-footer-text">Total Stock</div>
+
+      <div class="table-footer-field">
+       Rs 600
+     </div>
+   </div>
+   <div class="main-table">
+      <div class="table-footer-text">Fos Stock</div>
+
+      <div class="table-footer-field">
+       Rs 600
+     </div>
+   </div>
+   <div class="main-table">
+      <div class="table-footer-text">Other Stock</div>
+
+      <div class="table-footer-field">
+       Rs 600
+     </div>
+   </div>
+   <div class="main-table">
+      <div class="table-footer-text">Total Stock</div>
+
+      <div class="table-footer-field">
+       Rs 600
+     </div>
+   </div>
+
+         </div>
+         </div>
+         <div class="mdl-cell mdl-cell--7-col">
+         <div class="mdl-grid">
+          
+          <div class="mdl-cell mdl-cell--8-col">
+           <div class="card-middle">
+           <div class="mdl-card mdl-shadow--2dp through mdl-shadow--2dp">
+            <div>
+             <div class="card-top">
+              Sales/Profit Comparision
+            </div>
+              <canvas id="bar-chart">
+              </canvas>
+            </div>
+            </div>
+            </div>
+            </div>
+             <div class="mdl-cell mdl-cell--4-col">
+             <div class="card-middle">
+            <div class="mdl-card mdl-shadow--2dp through mdl-shadow--2dp">
+             <div class="card-top">
+              Current Status
+            </div>
+              <div id="doughnutChart" class="chart">
+              </div>
+              <div class="chart-bottom">
+              Today Target:Rs.20000
+              </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="mdl-grid">
+          
+          <div class="mdl-cell mdl-cell--12-col">
+          <div class="mdl-card mdl-shadow--2dp through mdl-shadow--2dp table-bottom">
+          <div class="card-top">
+          Fos Performance
+          </div>
+          <div class="table">
+            <table class="mdl-data-table mdl-js-data-table mdl-data-table">
+              <thead>
+                <tr>
+                  <th class="mdl-data-table__cell--non-numeric">Name</th>
+                  <th>Current Value</th>
+                  <th>Previous Value</th>
+                  <th>Percentage</th>
+                 </tr>
+              </thead>
+              <tbody>
+
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                  <td>
+                  <div class="table-text">
+                  25
+                  </div>
+                  </td>
+                  <td>
+                    <div class="table-text">
+                  24
+                  </div>
+                  </td>
+                  <td>
+                  <div class="table-right">
+                  <div class="table-right-text">
+                  23
+                  </div>
+                  <div>
+                  <i class="material-icons">&#xE5C7;</i>
+                  </div>
+                  </div>
+                  </td>
+                  
+                </tr>
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                  <td>
+                  <div class="table-text">
+                  25
+                  </div>
+                  </td>
+                  <td>
+                    <div class="table-text">
+                  24
+                  </div></td>
+                  <td>
+                  <div class="table-right">
+                  <div class="table-right-text">
+                  23
+                  </div>
+                  <div>
+                  <i class="material-icons">&#xE5C7;</i>
+                  </div>
+                  </div>
+                  </td>
+                </tr>
+                <tr>
+                <td class="mdl-data-table__cell--non-numeric">Harika</td>
+                  <td>
+                  <div class="table-text">
+                  25
+                  </div>
+                  </td>
+                  <td>
+                  <div class="table-text">
+                  24
+                  </div></td>
+                  <td>
+                  <div class="table-right">
+                  <div class="table-right-text">
+                  23
+                  </div>
+                  <div>
+                  <i class="material-icons">&#xE5C7;</i>
+                  </div>
+                  </div>
+                  </td>
+                </tr>
+            </tbody>
+            </table>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+       
+    </div>
+    </div>
+    </main>
+    </div>
+    </body>
+<script src="libraries/jquery.min.js"></script>
+<script src="libraries/jquery.drawDoughnutChart_1.js"></script>
+<script src="Chart.min.js"></script>
+<script src="Dashboard new.js"></script>
+ </html>
