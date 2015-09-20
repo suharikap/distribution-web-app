@@ -1,0 +1,66 @@
+.card-top
+{
+	display: flex;
+	margin-right: 20px;
+}
+.mdl-card
+{
+	width: 90%;
+}
+.card-right
+{
+	
+	padding-top: 20px;
+}
+.card-select
+{
+	width: 100px;
+}
+.card-select-search
+{
+	width: 200px;
+}
+.mdl-textfield
+{
+	
+	width: 100%;
+
+}
+.card-left
+{
+	padding-left: 60px;
+	padding-top: 20px;
+	width: 45%;
+
+}
+.mdl-button
+{
+	width: 70px;
+	margin-left: 83%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.dropdown-size
+{
+	width: 200px;
+}
+.card-left-price
+{
+	padding-left: 60px;
+	padding-top: 30px;
+	width: 45%;
+}
+.top
+{
+	font-weight: bold;
+	margin: 10px;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+body
+{
+  background-color: #FBFBFB;
+}
