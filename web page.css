@@ -1,0 +1,55 @@
+.phone-img
+{
+	width: 50%;
+
+}
+.phone-txt
+{
+	width: 50%;
+	margin-top: 15%;
+	padding-left: 40px;
+}
+.img-text-align
+{
+	display: flex;
+	margin-bottom: 85px;
+}
+main
+{
+	background-color: #AEEEEE;
+}
+
+.girl-img
+{
+	float: right;
+	margin-top: 20%;
+	box-shadow: 5px 5px 10px;
+
+}
+.phone-top-txt
+{
+	font-weight: bold;
+	font-size: 25px;
+}
+.phone-bottom-txt
+{
+	padding-top: 25px;
+	width: 45%;
+
+}
+.mdl-mini-footer
+{
+	padding: 5px;
+	
+
+}
+.android-header
+{
+	background-color: #424242;
+	
+}
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+
