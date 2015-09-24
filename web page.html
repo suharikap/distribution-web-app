@@ -19,14 +19,7 @@
 					</span>
 					<!-- Add spacer, to align navigation to the right in desktop -->
 					<div class="android-header-spacer mdl-layout-spacer"></div>
-					<div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width is-upgraded" data-upgraded=",MaterialTextfield">
-						<label class="mdl-button mdl-js-button mdl-button--icon" for="search-field" data-upgraded=",MaterialButton">
-							<i class="material-icons">search</i>
-						</label>
-						<div class="mdl-textfield__expandable-holder">
-							<input class="mdl-textfield__input" type="text" id="search-field">
-						</div>
-					</div>
+					
 					<!-- Navigation -->
 					<div class="android-navigation-container">
 						<nav class="android-navigation mdl-navigation">
@@ -39,6 +32,14 @@
 							<a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Play</a>
 						</nav>
 					</div>
+					<div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width is-upgraded" data-upgraded=",MaterialTextfield">
+						<label class="mdl-button mdl-js-button mdl-button--icon" id="search-click" for="search-field" data-upgraded="MaterialButton" >
+							<i class="material-icons">search</i>
+						</label>
+						<div class="mdl-textfield__expandable-holder" id="search-field-text">
+							<input class="mdl-textfield__input" type="text" id="search-field">
+						</div>
+					</div>
 					<button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button" data-upgraded=",MaterialButton,MaterialRipple">
 						<i class="material-icons">more_vert</i>
 						<span class="mdl-button__ripple-container">
@@ -48,8 +49,22 @@
 				</div>
 				<main class="mdl-layout__content">
 				<div class="img-text-align">
-				<div class="phone-img ">
-					<img src="girl.jpg" class="girl-img">
+				<div class="phone-img">
+					<video class="video-align" controls>
+						<source src="i am.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="phone-txt">
+				<div class="button-align">
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+				  Button
+				</button>
+                </div>
+				</div>
+				</div>
+				<div class="img-text-align">
+				<div class="phone-img">
+					<img src="girl.jpg" class="device-img">
 				</div>
 				<div class="phone-txt">
 				  <div class="phone-top-txt">
@@ -62,8 +77,9 @@
 				</div>
 				<footer class="mdl-mini-footer">
   <div class="mdl-mini-footer__left-section">
-    <div class="mdl-logo">Title</div>
+    
     <ul class="mdl-mini-footer__link-list">
+    <li><a href="#">Title</a></li>
       <li><a href="#">Help</a></li>
       <li><a href="#">Privacy & Terms</a></li>
     </ul>
@@ -72,5 +88,9 @@
 				</main>
 			</div>
 		</div>
+		<script src="libraries/material.min.js"></script>
+<script src="libraries/jquery.min.js"></script>
+		<script src="web page.js"></script>
+		<script src="material min.js"></script>
 	</body>
 	</html>
