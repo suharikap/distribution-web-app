@@ -6,6 +6,12 @@
 .phone-txt
 {
 	width: 50%;
+	margin-top: 20%;
+	padding-left: 40px;
+}
+.video-txt
+{
+	width: 50%;
 	margin-top: 15%;
 	padding-left: 40px;
 }
@@ -40,7 +46,7 @@ main
 	float: right;
 	margin-top: 20%;
 	box-shadow: 5px 5px 10px;
-	
+	height: 400px;
 
 }
 .phone-top-txt
