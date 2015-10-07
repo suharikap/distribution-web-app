@@ -40,6 +40,10 @@ main
 {
 	background-color: #AEEEEE;
 }
+body
+{
+	font-family: Helvetica, Sans-Serif;
+}
 
 .device-img
 {
@@ -50,20 +54,19 @@ main
 }
 .phone-top-txt
 {
-	font-weight: bold;
-	font-size: 25px;
+	
+	font-size: 35px;
 }
 .phone-bottom-txt
 {
 	padding-top: 25px;
 	width: 45%;
 
+
 }
 .mdl-mini-footer
 {
 	padding: 5px;
-	
-
 }
 .android-header
 {
@@ -82,17 +85,38 @@ main
 .android-header .material-icons {
     color: #767777 !important;
   }
-.android-link .material-icons {
+.android-link .material-icons
+ {
     position: relative;
     top: 6px;
   }
-.android-alt-link .material-icons {
+.android-alt-link .material-icons
+ {
     position: relative;
     top: 6px;
   }
-  .android-footer .mdl-mega-footer--right-section a .material-icons {
+  .android-footer .mdl-mega-footer--right-section a .material-icons
+   {
     position: relative;
     top: 6px;
   }
-  
+ .android-more-button 
+ {
+ 	-webkit-box-ordinal-group: 4;
+    order: 3;
+  }
 
+
+.android-header .mdl-layout__drawer-button
+ {
+    background: transparent;
+    color: #767777;
+}
+.mdl-layout__drawer-button
+{
+	margin-top: 18px;
+}
+.android-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}

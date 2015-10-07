@@ -1,14 +1,12 @@
 body
 {
 	background-image: url("18660.jpg");
-
     background-size: cover;
-
 }
 .mdl-card
 {
 	width: 100%;
-	margin-top: 20%;
+	margin-top: 10%;
 	background-image: url("moun.jpg");
 	background-size: 100% 50%;
 	background-repeat: no-repeat;
@@ -16,13 +14,18 @@ body
 }
 .top-icon
 {
-	padding-top: 230px;
+	padding-top: 260px;
 	padding-right: 10px;
 }
 .icon-top
 {
 	float: right;
+	color: #FEA5A1;
 	
+}
+.icon-clr
+{
+	color: #FEA5A1;
 }
 .icon-align
 {
@@ -41,4 +44,13 @@ body
 {
 	width: 25%;
 	height: 30%;
+}
+.search-box
+{
+	display: flex;
+
+}
+.mdl-textfield
+{
+	float: right;
 }
