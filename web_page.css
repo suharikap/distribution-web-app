@@ -3,12 +3,129 @@
 	width: 50%;
 
 }
+.phone2-img
+{
+	margin-left: 10%;
+}
+.phone3-img
+{
+	margin-left: 7%;
+}
+.phone4-img
+{
+	height: auto;
+	max-width: 90%;
+
+}
+.phone5-img
+{
+	max-width: 65%;
+	height: auto;
+	margin-left: 15%;
+}
+.phone4
+{
+	width: 30%;
+	margin-left: 15%;
+}
+.phone5
+{
+	width: 41.6666666667%;
+}
 .phone-txt
 {
 	width: 50%;
 	margin-top: 20%;
 	padding-left: 40px;
 }
+.phone2-txt
+{
+	width: 22%;
+    margin-left:20%;
+    margin-top: 8%;
+}
+.phone4-txt
+{
+	margin-top: 15%;
+	width: 43%;
+    margin-left: 4%;
+}
+.phone5-txt
+{
+	margin-top: 15%;
+	width: 40%;
+	margin-left: 13%;
+}
+.phone-top-txt
+{
+	font-size: 35px;
+}
+.phone2-top-txt
+{
+	font-size: 36px;
+}
+.phone3-top-txt
+{
+	font-size: 28px;
+	line-height: 1.29;
+}
+.phone5-top-txt
+{
+	font-size: 49px;
+	line-height: 1.4;
+	font-weight: 200;
+	color: #000;
+}
+.phone4-top-txt
+{
+	font-size: 49px;
+	font-weight: 300;
+	line-height: 1.4;
+	color: #FFFFFF;
+}
+h2
+{
+	font-weight: 300;
+	color: #8a8a8a;
+}
+h1
+{
+	
+	font-weight: 300;
+	color: #8a8a8a;
+}
+
+.phone-bottom-txt
+{
+	padding-top: 25px;
+	width: 45%;
+}
+.phone2-bottom-txt
+{
+	color: #656363;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Roboto','Droid Sans',arial,sans-serif;
+}
+.phone4-bottom-txt
+{
+	
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.3;
+	color: #6F766A;
+	font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.phone5-bottom-txt
+{
+	
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 1.3;
+	color: #8e8e93;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
 .video-txt
 {
 	width: 50%;
@@ -20,13 +137,24 @@
 	display: flex;
 	margin-bottom: 85px;
 }
+.img2-text-align
+{
+	display: flex;
+	margin-bottom: 85px;
+}
+.img4-text-align
+{
+	display: flex;
+	background-color: #08131E;
+	margin-bottom: 85px;
+}
+
+
 .video-align
 {
 	float: right;
 	margin-top: 30%;
 	width: 330px;
-
-
 }
 .button-align
 {
@@ -38,11 +166,7 @@
 }
 main
 {
-	background-color: #AEEEEE;
-}
-body
-{
-	font-family: Helvetica, Sans-Serif;
+	background-color: #fff;
 }
 
 .device-img
@@ -52,18 +176,6 @@ body
 	box-shadow: 5px 5px 10px;
 	height: 400px;
 }
-.phone-top-txt
-{
-	
-	font-size: 35px;
-}
-.phone-bottom-txt
-{
-	padding-top: 25px;
-	width: 45%;
-
-
-}
 .mdl-mini-footer
 {
 	padding: 5px;
@@ -71,10 +183,10 @@ body
 .android-header
 {
 	background-color: #424242;
-	
 }
 .android-search-box .mdl-textfield__input {
   color: rgba(0, 0, 0, 0.87);
+	
 }
  .android-search-box .mdl-textfield__expandable-holder {
     width: 100%;
@@ -119,4 +231,8 @@ body
 .android-header .mdl-menu__container {
   z-index: 50;
   margin: 0 !important;
+}
+.device-img
+{
+	box-shadow: 0px 0px 0px;
 }
