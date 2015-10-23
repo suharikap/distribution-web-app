@@ -1,0 +1,38 @@
+.mdl-grid
+{
+	padding: 0;
+}
+.mdl-cell
+{
+	margin: 0;
+}
+.mdl-card
+{
+	height: 100%;
+	width: 234px;
+}
+.star-icon
+{
+	width: 24px;
+	padding-left: 15px;
+}
+.icon
+{
+	padding-left: 15px;
+}
+.left-pane-text
+{
+	padding-top: 5px;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+.left-pane
+{
+	display: flex;
+}
+.mdl-button
+{
+	width: 170px;
+    margin-left: 30px;
+}

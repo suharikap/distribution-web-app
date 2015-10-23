@@ -1,0 +1,49 @@
+.wifi
+{
+	display: flex;
+	margin: 10px;
+}
+.wifi-text
+{
+	font-weight: bold;
+	padding-left: 10px;
+	font-size: 20px;
+	padding-top:5px;
+}
+.wifi-icon
+{
+	padding-left: 60%;
+	font-size: 24px;
+	padding-top: 5px;
+}
+.mdl-card
+{
+	width: 100%;
+}
+.top-text
+{
+   border-right: 2px solid black;
+   margin-left: 10px;
+   
+}
+.top
+{
+	display: flex;
+	margin-top: 10px;
+	font-size: 15px;
+	margin-left: 10px;
+}
+.line
+{
+	margin: 0px;
+
+}
+.top-middle-text
+{
+	margin-right: 10px;
+}
+.top-last-text
+{
+	margin-right: 10px;
+	margin-left: 10px;
+}

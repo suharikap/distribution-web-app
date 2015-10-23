@@ -1,0 +1,29 @@
+.mdl-grid
+{
+	background-color: #000;
+}
+.mdl-card
+{
+	margin-top: 10%;
+}
+.card-top-text
+{
+	padding-left: 40%;
+	padding-top: 20px;
+	font-weight: bold;
+}
+.name-text
+{
+	display: flex;
+}
+.name
+{
+	font-weight: bold;
+	padding-top: 30px;
+	padding-left: 40px;
+}
+.mdl-textfield
+{
+	padding-left: 30px;
+	width: 60%;
+}
