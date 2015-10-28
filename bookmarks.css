@@ -1,3 +1,4 @@
+
 .mdl-grid
 {
 	padding: 0;
@@ -10,6 +11,59 @@
 {
 	height: 100%;
 	width: 234px;
+}
+.ddl-card
+{
+   margin-left: 23px;
+}
+.card
+{
+	display: flex;
+	padding-left: 2%;
+}
+.left-pane-top-text
+{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.bdl-card
+{
+    width: 192px;
+    height: 230px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.card-inner
+{
+    height: 144px;
+    background-color: #EB6396;
+
+}
+.card-inner-top-text
+{
+	padding: 60px 85px;
+	font-weight: bold;
+}
+.card-inner-bottom
+{
+	display: flex;
+}
+.card-icon
+{
+	padding-left: 100px;
+	padding-top: 10px;
+
+}
+.card-inner-text
+{
+	font-weight: bold;
+	padding: 10px;
+}
+a
+{
+	color: #000;
 }
 .star-icon
 {
@@ -35,4 +89,49 @@
 {
 	width: 170px;
     margin-left: 30px;
+}
+.nav-item
+{
+	display: inline-block;
+	height: 40px;
+}
+.nav-content
+{
+	position: absolute;
+	overflow: hidden;
+    max-height: 0;
+    background-color: #fff;
+    color: #000;
+}
+.nav-content a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.nav-content a: hover
+{
+	text-decoration: underline;
+}
+
+.nav-sub
+{
+  padding: 10px;
+}
+.nav-sub ul
+{
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+.nav-item:focus
+{
+	background-color: #444;
+}
+.nav-item:focus ~ .nav-content
+{
+	max-height: 400px;
+	-webkit-transition:max-height 0.4s ease-in;
+	-moz-transition:max-height 0.4s ease-in;
+	transition:max-height 0.4s ease-in;
+
 }
