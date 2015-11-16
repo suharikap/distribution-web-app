@@ -1,20 +1,24 @@
-
+.page-content
+{
+	width: 100%;
+}
 .mdl-grid
 {
 	padding: 0;
 }
 .mdl-cell
 {
-	margin: 0;
+   margin: 0;
 }
 .mdl-card
 {
 	height: 100%;
-	width: 233px;
+	width: 100%;
 }
 .ddl-card
 {
-   margin-left: 23px;
+   width: 103%;
+
 }
 .card
 {
@@ -142,7 +146,7 @@ list-style-type: none;
 }
 .top-right
 {
-    padding-left: 65%;
+    padding-left: 35%;
     padding-top: 15px;
     
 }
@@ -155,4 +159,25 @@ list-style-type: none;
 .top-right-icon
 {
     padding-right: 20px;
+}
+.search-box
+{
+  border-color: #000;
+  padding: 5px;
+  width: 100%;
+  height: 30px;
+
+}
+.search-bx
+{
+	width: 45%;
+	padding: 20px;
+	display: flex;
+	
+}
+.search-symbol
+{
+	padding: 5px;
+	font-size: 25px;
+	
 }
