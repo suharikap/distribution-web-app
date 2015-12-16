@@ -1,0 +1,49 @@
+.middle-text
+{
+	display: flex;
+	padding-top: 20px;
+}
+.right-top-text
+{
+    color: #7F7D80; 
+    padding-top:10px; 
+}
+.image
+{
+	height: 80%;
+
+}
+.img
+{
+	width: 30%;
+}
+.right-top-first-text
+{
+    color: #7F7D80; 
+	padding-top: 100px;
+}
+.top-text
+{
+	padding-left: 17%;
+	padding-top: 20px;
+	font-size: 30px;
+}
+.or-spacer-vertical {
+  display: inline-block;
+  width: 100px;
+  position: relative;
+}
+.or-spacer-vertical .mask {
+  overflow: hidden;
+  width: 20px;
+  height: 500px;
+}
+.or-spacer-vertical.left .mask:after {
+  content: '';
+  display: block;
+  margin-left: -20px;
+  width: 20px;
+  height: 100%;
+  border-radius: 12px / 125px;
+  box-shadow: 0 0 8px black;
+}
