@@ -1,0 +1,58 @@
+.pic
+{
+	position: absolute;
+	top: 390px;  
+	left: 65%;
+}
+.top-text
+{
+	padding-left: 10%;
+	padding-top: 3%;
+	display: flex;
+}
+.material-icons
+{
+	font-size: 40px;
+}
+.top-right-text
+{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.top-left-text
+{
+	padding-top: 10px;
+	padding-left: 20px;
+
+}
+.top-right-lasttext
+{
+	padding-right: 50%;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.middle-text
+{
+	padding-left: 27%;
+	font-size: 30px;
+	padding-top: 40px;
+	font-family: proxima-nova,"Proxima Nova","Helvetica Neue",Helvetica,sans-serif;
+	
+}
+.middle-bottom-text
+{
+	padding-left: 29%;
+	font-size: 30px;
+	padding-top: 20px;
+}
+.mdl-button
+{
+	margin-left: 40%;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	border-color: #000;
+}
+.image
+{
+	padding-left: 10%;
+}
