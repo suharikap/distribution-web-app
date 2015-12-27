@@ -1,0 +1,51 @@
+.top-text
+{
+	display: flex;
+	padding-top: 5%;
+}
+.top-right-text
+{
+	padding-left: 5%;
+}
+.top-left-text
+{
+	padding-right: 15%;
+	padding-left: 10%;
+}
+.middle-text
+{
+	padding-top: 5%;
+	padding-left: 10%;
+	font-size: 40px;
+}
+.image2
+{
+    left: 15%;
+	position: absolute;
+}
+.image1
+{
+   height: 350px;
+   margin-top: 35px;
+
+}
+.image
+{ 
+	padding-top: 50px;
+	padding-left: 100px;
+}
+.middle-text2
+{
+   padding-top: 70px;
+   font-size: 30px;
+   padding-right: 135px;
+
+}
+.mdl-grid
+{
+	display: flex;
+}
+.mdl-cell
+{
+	width: 100%;
+}
