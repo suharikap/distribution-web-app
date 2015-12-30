@@ -1,7 +1,7 @@
 .top-text
 {
 	display: flex;
-	padding-top: 5%;
+	padding-top: 25%;
 }
 .top-right-text
 {
@@ -48,4 +48,36 @@
 .mdl-cell
 {
 	width: 100%;
+}
+
+
+
+ul
+{
+	list-style-type: none;
+}
+
+nav li a
+{
+	float: left;
+	padding: 5px;
+
+}
+nav li.right {
+    float: right;
+}
+.center
+{
+
+	width: 1020px;
+}
+nav 
+{
+  
+}
+a {
+    
+   
+   
+    
 }

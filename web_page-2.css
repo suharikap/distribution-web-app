@@ -1,58 +1,114 @@
-.pic
+.picture
 {
 	position: absolute;
 	top: 390px;  
 	left: 65%;
 }
+
+.top-left
+{
+	float: right;
+}
+ul
+{
+	list-style-type: none;
+	
+}
+nav li a
+{
+	float: left;
+	margin-right: 15px;
+	padding: 13px 0;
+}
 .top-text
 {
-	padding-left: 10%;
-	padding-top: 3%;
-	display: flex;
+	padding-top: 22px;
 }
+.center
+{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+ nav 
+{
+    margin: 40px 0 45px;
+}
+.full 
+{
+    float: left;
+    width: 100%;
+}
+.top
+{
+	padding-left: 220px;
+}
+
 .material-icons
 {
 	font-size: 40px;
-}
-.top-right-text
-{
-	padding-top: 10px;
-	padding-left: 20px;
-}
-.top-left-text
-{
-	padding-top: 10px;
-	padding-left: 20px;
 
-}
-.top-right-lasttext
-{
-	padding-right: 50%;
-	padding-top: 10px;
-	padding-left: 20px;
 }
 .middle-text
 {
-	padding-left: 27%;
-	font-size: 30px;
-	padding-top: 40px;
-	font-family: proxima-nova,"Proxima Nova","Helvetica Neue",Helvetica,sans-serif;
-	
+	text-align: center;
+    font-weight: 200;
+    color: #fff;
+   font-size: 30px;
+   padding-top: 50px;
+   max-width: 600px;
+   padding-left: 350px;
+   line-height: 30px;
 }
-.middle-bottom-text
-{
-	padding-left: 29%;
-	font-size: 30px;
-	padding-top: 20px;
-}
+
 .mdl-button
 {
 	margin-left: 40%;
 	margin-top: 40px;
 	margin-bottom: 50px;
-	border-color: #000;
+	color: #fff;
 }
 .image
 {
 	padding-left: 10%;
 }
+body
+{
+	background-color: #000;
+}
+@media screen and (max-width: 1024px) {
+  
+    .middle-text
+    {
+      padding-left: 100px;
+    }
+}
+@media screen and (max-width: 720px) {
+   
+    .middle-text
+    {
+    	padding-left: 5px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+  
+    .middle-text
+    {
+    	padding-left: 5px;
+    }
+    
+    nav li a
+{
+	float: left;
+	margin-right: 10px;
+	padding: 0px 0;
+}
+.top-text
+{
+	padding-top: 10px;
+}
+}
+
+
+
