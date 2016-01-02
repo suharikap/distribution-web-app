@@ -228,7 +228,8 @@ main
 {
 	margin-top: 18px;
 }
-.android-header .mdl-menu__container {
+.android-header .mdl-menu__container
+ {
   z-index: 50;
   margin: 0 !important;
 }
